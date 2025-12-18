@@ -30,10 +30,10 @@ const WhatsAppButton: React.FC = () => {
   };
 
   return (
-    <div className="fixed bottom-6 right-36 sm:right-48 lg:right-52 z-50 flex flex-col items-end">
+    <div className={`fixed z-50 ${isOpen ? 'inset-0 flex items-center justify-center bg-black/30 sm:bg-transparent sm:bottom-6 sm:right-48 lg:right-52 sm:inset-auto sm:flex-col sm:items-end' : 'bottom-6 right-36 sm:right-48 lg:right-52 flex flex-col items-end'}`}>
       {/* WhatsApp Input Window */}
       {isOpen && (
-        <div className="bg-white rounded-lg shadow-2xl w-80 sm:w-96 mb-4 border border-slate-200 overflow-hidden">
+        <div className="bg-white rounded-lg shadow-2xl w-[90%] max-w-sm sm:w-96 sm:mb-4 border border-slate-200 overflow-hidden">
           {/* Header */}
           <div className="bg-green-500 text-white p-4">
             <div className="flex justify-between items-center">
