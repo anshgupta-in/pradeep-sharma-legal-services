@@ -41,7 +41,7 @@ Please confirm my appointment slot. Thank you!`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
     
     // WhatsApp phone number (remove + and spaces)
-    const whatsappNumber = "9999820270";
+    const whatsappNumber = "919999820270";
     
     // Open WhatsApp with pre-filled message
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;

@@ -24,7 +24,7 @@ const WhatsAppButton: React.FC = () => {
   const openWhatsApp = (text: string) => {
     const whatsappMessage = `Hello, ${text}`;
     const encodedMessage = encodeURIComponent(whatsappMessage);
-    const whatsappNumber = "9999820270";
+    const whatsappNumber = "919999820270";
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
     window.open(whatsappUrl, '_blank');
   };
