@@ -9,7 +9,7 @@ const officeImages = [
     subtitle: 'Conveniently Located',
     description:
       'Our office is situated in a prime location with easy access, ensuring clients can visit us conveniently for all legal matters.',
-    imageUrl: './images/outside.webp',
+    imageUrl: '/images/outside.webp',
   },
   {
     id: 'spacious',
@@ -17,7 +17,7 @@ const officeImages = [
     subtitle: 'Professional & Organized',
     description:
       'A well-organized, spacious workspace designed for efficient case handling and seamless document processing.',
-    imageUrl: './images/spacious.webp',
+    imageUrl: '/images/spacious.webp',
   },
   {
     id: 'meeting',
@@ -25,7 +25,7 @@ const officeImages = [
     subtitle: 'Confidential & Comfortable',
     description:
       'A private meeting space for confidential discussions, case consultations, and strategic legal planning with clients.',
-    imageUrl: './images/meeting.webp',
+    imageUrl: '/images/meeting.webp',
   },
 ];
 

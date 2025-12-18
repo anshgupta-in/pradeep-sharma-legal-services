@@ -67,7 +67,7 @@ export const PSLogo = ({ className = "h-12 w-12" }: { className?: string }) => {
   // Attempts to load logo.webp relative to current page
   return (
     <img 
-      src="./logo.webp" 
+      src="/logo.webp" 
       alt="Pradeep Sharma Logo" 
       width={200}
       height={80}
@@ -157,7 +157,7 @@ export const LAWYER_DETAILS = {
   phone: "+91 99998 20270",
   email: "contact@pradeepsharma.legal",
   officeHours: "Mon - Fri: 10:00 AM - 8:00 PM",
-  imageUrl: "./images/team3.webp"
+  imageUrl: "/images/team3.webp"
 };
 
 export const TEAM: TeamMember[] = [
@@ -166,20 +166,20 @@ export const TEAM: TeamMember[] = [
     name: "Abhishek Gupta",
     role: "Documentation Specialist",
     bio: "Focuses on precision in drafting and end-to-end registration support.",
-    imageUrl: "./images/team3.webp"
+    imageUrl: "/images/team3.webp"
   },
   {
     id: '1',
     name: "Nikhil Kumar",
     role: "Documentation Specialist",
     bio: "Focuses on precision in drafting and end-to-end registration support.",
-    imageUrl: "./images/image.webp"
+    imageUrl: "/images/image.webp"
   },
   {
     id: '2',
     name: "Sahil Verma",
     role: "Documentation Specialist",
     bio: "Focuses on precision in drafting and end-to-end registration support.",
-    imageUrl: "./images/team2.webp"
+    imageUrl: "/images/team2.webp"
   }
 ];
