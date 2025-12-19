@@ -155,9 +155,10 @@ export const LAWYER_DETAILS = {
   bio: "Pradeep Sharma is a distinguished legal practitioner based in Delhi, specializing in property law, civil litigation, and documentation. With over two decades of experience at the Delhi High Court and district courts, he provides strategic legal counsel for complex property disputes, registration processes, and family settlements.",
   address: "118, Street No.5, South Anarkali, Krishna Nagar, Delhi-110051",
   phone: "+91 99998 20270",
-  email: "contact@pradeepsharma.legal",
+  email: "Pradeepsharmaadv.1@gmail.com",
+  alternatePhone: "+91 98218 40423",
   officeHours: "Mon - Fri: 10:00 AM - 8:00 PM",
-  imageUrl: "/images/team3.webp"
+  imageUrl: "/images/hero.webp"
 };
 
 export const TEAM: TeamMember[] = [

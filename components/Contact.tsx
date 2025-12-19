@@ -39,6 +39,9 @@ const Contact: React.FC = () => {
                           <div className="ml-4">
                               <p className="text-sm font-medium text-slate-900">Phone</p>
                               <p className="text-base text-slate-500 mt-1">{LAWYER_DETAILS.phone}</p>
+                              {LAWYER_DETAILS.alternatePhone && (
+                                <p className="text-sm text-slate-500 mt-1">Alt: {LAWYER_DETAILS.alternatePhone}</p>
+                              )}
                           </div>
                       </div>
 

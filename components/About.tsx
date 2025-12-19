@@ -12,10 +12,10 @@ const About: React.FC = () => {
              <Reveal>
                <div className="border border-legal-100 p-4 transform transition-transform hover:scale-[1.02] duration-500">
                   <div className="aspect-[3/4] overflow-hidden bg-legal-100 relative">
-                       <img
-                          className="object-cover w-full h-full filter sepia-[.2] hover:sepia-0 transition-all duration-700"
-                          src="/images/team3.webp"
-                          alt="Legal Office"
+                        <img 
+                          className="object-cover w-full h-full filter sepia-[.2] hover:sepia-0 transition-all duration-700" 
+                          src="/images/hero.webp"
+                          alt="Legal Office" 
                         />
                   </div>
                </div>
@@ -49,7 +49,12 @@ const About: React.FC = () => {
                  <div className="flex flex-col group cursor-pointer">
                     <div className="flex items-center text-legal-gold mb-2 group-hover:scale-110 transition-transform origin-left"><Icons.Phone /></div>
                     <span className="text-xs text-slate-400 uppercase tracking-wide">Call Us</span>
-                    <span className="font-serif text-xl text-legal-900 group-hover:text-legal-gold transition-colors">{LAWYER_DETAILS.phone}</span>
+                    <span className="font-serif text-xl text-legal-900 group-hover:text-legal-gold transition-colors">
+                      {LAWYER_DETAILS.phone}
+                      {LAWYER_DETAILS.alternatePhone && (
+                        <span className="block text-base text-slate-600 mt-1">Alt: {LAWYER_DETAILS.alternatePhone}</span>
+                      )}
+                    </span>
                  </div>
                  <div className="flex flex-col group cursor-pointer">
                     <div className="flex items-center text-legal-gold mb-2 group-hover:scale-110 transition-transform origin-left"><Icons.Email /></div>
