@@ -127,7 +127,7 @@ const OfficeGallery: React.FC = () => {
         </div>
       </div>
 
-      {/* Pointer-follow PS logo accent */}
+      {/* Pointer-follow PS logo0 accent */}
       <div
         className={`pointer-events-none absolute -translate-x-1/2 -translate-y-1/2 transition-opacity duration-300 ${
           hovering ? 'opacity-90' : 'opacity-0'
