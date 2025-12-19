@@ -14,7 +14,7 @@ const About: React.FC = () => {
                   <div className="aspect-[3/4] overflow-hidden bg-legal-100 relative">
                         <img 
                           className="object-cover w-full h-full filter sepia-[.2] hover:sepia-0 transition-all duration-700" 
-                          src="/images/hero.webp"
+                          src="/images/profile.webp"
                           alt="Legal Office" 
                         />
                   </div>
