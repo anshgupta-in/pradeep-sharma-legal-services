@@ -1,6 +1,6 @@
 import React, { useState, useRef } from 'react';
 import Reveal from './Reveal';
-import { PSLogo } from '../constants';
+import { PSLogo, LAWYER_DETAILS } from '../constants';
 
 const REVIEWS = [
   { id: 1, name: 'Rohit Malhotra', title: 'Property Registration', quote: 'Clear guidance and rapid turnaround on my property papers. Felt fully supported.', rating: 5 },
@@ -144,7 +144,7 @@ const Testimonials: React.FC = () => {
                   Help others find trusted legal services. Your Google review helps build credibility and helps future clients make informed decisions.
                 </p>
                 <a
-                  href="https://www.google.com/search?q=Pradeep+Sharma+Advocate+Delhi+High+Court+Krishna+Nagar"
+                  href={LAWYER_DETAILS.googleBusinessProfileUrl}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-3 bg-white border-2 border-legal-gold text-legal-900 px-6 py-4 rounded-lg font-semibold hover:bg-legal-gold hover:text-white transition-all duration-300 shadow-md hover:shadow-xl transform hover:-translate-y-1"

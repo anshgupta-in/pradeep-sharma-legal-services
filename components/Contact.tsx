@@ -80,7 +80,7 @@ const Contact: React.FC = () => {
                   loading="lazy" 
                   referrerPolicy="no-referrer-when-downgrade"
                   title="Office Location Map"
-                  className="w-full h-full grayscale hover:grayscale-0 transition-all duration-700"
+                  className="w-full h-full lg:grayscale lg:hover:grayscale-0 transition-all duration-700"
                  ></iframe>
                       <div className="absolute top-4 right-4 flex flex-col gap-2 z-10">
                         <a
