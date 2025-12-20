@@ -72,6 +72,8 @@ export const PSLogo = ({ className = "h-12 w-12" }: { className?: string }) => {
       width={200}
       height={80}
       className={`${className} object-contain`} 
+      loading="eager"
+      fetchPriority="low"
       onError={() => setImgError(true)}
     />
   );
