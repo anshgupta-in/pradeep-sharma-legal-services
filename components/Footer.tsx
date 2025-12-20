@@ -107,9 +107,9 @@ const Footer: React.FC = () => {
                           <PSLogo className="h-12 w-auto sm:h-14" />
                         </div>
                         <div className="flex flex-col translate-y-[6px] pl-4 sm:pl-6">
-                            <span className="text-2xl font-serif font-bold block leading-none">Pradeep Sharma</span>
-                            <span className="text-xs uppercase tracking-widest text-legal-gold">Advocate • Delhi High Court</span>
-                            <span className="text-xs text-slate-600 mt-1">Legal Advisor of all Kinds of Properties</span>
+                            <span className="text-2xl font-serif font-bold block leading-none">Document Center</span>
+                            <span className="text-xs uppercase tracking-widest text-legal-gold mt-1">Owned & Operated by Advocate Pradeep Sharma</span>
+                            <span className="text-xs text-slate-600 mt-1">Legal Documentation & Certificate Services – Krishna Nagar, East Delhi</span>
                         </div>
                     </div>
                     <p className="text-slate-600 max-w-sm mb-6">

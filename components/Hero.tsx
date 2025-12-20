@@ -50,7 +50,11 @@ const Hero: React.FC = () => {
             </Reveal>
             <Reveal delay={200}>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif text-legal-900 leading-tight font-bold mb-6">
-                <span className="block">Affidavit & Certificate</span>
+                <span className="block">
+                  <span className="text-legal-gold">PS</span>
+                  <span className="text-legal-900"> Document Center –</span>
+                </span>
+                <span className="block mt-2">Affidavit & Certificate</span>
                 <span className="block mt-2">
                   <span className="text-legal-gold">Services</span>
                   <span className="text-legal-900"> in </span>

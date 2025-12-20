@@ -68,7 +68,7 @@ export const PSLogo = ({ className = "h-12 w-12" }: { className?: string }) => {
   return (
     <img 
       src="/logo.webp" 
-      alt="Pradeep Sharma Logo" 
+      alt="PS Document Center Logo" 
       width={200}
       height={80}
       className={`${className} object-contain`} 
