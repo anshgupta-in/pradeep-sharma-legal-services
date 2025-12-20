@@ -159,8 +159,6 @@ export const LAWYER_DETAILS = {
   alternatePhone: "+91 98218 40423",
   officeHours: "Mon - Fri: 10:00 AM - 8:00 PM",
   imageUrl: "/images/hero.webp",
-  // Google Business Profile DIRECT REVIEW LINK
-  // Direct review link from Google Business Profile
   googleBusinessProfileUrl: "https://g.page/r/CRdRcOy27qqnEAE/review"
 };
 
