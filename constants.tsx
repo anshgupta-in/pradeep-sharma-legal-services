@@ -156,7 +156,7 @@ export const LAWYER_DETAILS = {
   address: "PS DOCUMENT CENTER, 118, Gali No. 5, Anarkali Colony South, Anarkali Colony, Krishna Nagar, Delhi, 110051",
   phone: "+91 99998 20270",
   email: "Pradeepsharmaadv.1@gmail.com",
-  alternatePhone: "+91 98218 40423",
+  alternatePhone: "+91 95409 25867",
   officeHours: "Mon - Fri: 10:00 AM - 8:00 PM",
   imageUrl: "/images/hero.webp",
   googleBusinessProfileUrl: "https://g.page/r/CRdRcOy27qqnEAE/review"
