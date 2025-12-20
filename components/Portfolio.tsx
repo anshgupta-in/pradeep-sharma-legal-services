@@ -27,7 +27,7 @@ const Portfolio: React.FC = () => {
                   <div className="absolute inset-0 bg-legal-900/10 group-hover:bg-transparent transition-colors z-10"></div>
                   <img 
                     src={item.image} 
-                    alt={item.title} 
+                    alt={`${item.title} - PS Document Center Krishna Nagar East Delhi`}
                     className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
                   />
                   <div className="absolute top-4 left-4 z-20">

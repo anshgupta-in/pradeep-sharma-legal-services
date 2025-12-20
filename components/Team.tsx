@@ -27,7 +27,7 @@ const Team: React.FC = () => {
                     <img 
                       className="object-cover w-full h-full transform group-hover:scale-110 transition-transform duration-700" 
                       src={member.imageUrl} 
-                      alt={member.name}
+                      alt={`${member.name} - ${member.role} at PS Document Center Krishna Nagar East Delhi`}
                       loading="lazy"
                       decoding="async"
                     />

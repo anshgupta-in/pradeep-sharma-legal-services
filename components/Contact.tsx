@@ -58,7 +58,7 @@ const Contact: React.FC = () => {
                        <div className="pt-6 border-t border-slate-100">
                            <h4 className="text-sm font-bold text-slate-900 mb-2">Office Hours</h4>
                            <p className="text-slate-500">{LAWYER_DETAILS.officeHours}</p>
-                           <p className="text-slate-500">Sat - Sun: Closed</p>
+                                  <p className="text-slate-500">Sunday: Closed</p>
                        </div>
                   </div>
               </div>

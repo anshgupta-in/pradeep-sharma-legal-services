@@ -87,7 +87,7 @@ const OfficeGallery: React.FC = () => {
                 <div className="relative aspect-[1/1] overflow-hidden">
                   <img
                     src={item.imageUrl}
-                    alt={item.title}
+                    alt={`${item.title} - PS Document Center office in Krishna Nagar East Delhi`}
                     loading="lazy"
                     decoding="async"
                     className="h-full w-full object-cover object-center transition-transform duration-700 ease-[cubic-bezier(0.22,0.61,0.36,1)] group-hover:scale-[1.03] group-hover:translate-y-1 group-hover:rotate-[0.5deg]"

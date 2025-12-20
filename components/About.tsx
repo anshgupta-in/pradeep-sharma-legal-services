@@ -15,7 +15,7 @@ const About: React.FC = () => {
                         <img 
                           className="object-cover w-full h-full filter sepia-[.2] hover:sepia-0 transition-all duration-700" 
                           src="/images/profile.webp"
-                          alt="Legal Office" 
+                          alt="PS Document Center office in Krishna Nagar East Delhi - Professional legal documentation services" 
                         />
                   </div>
                </div>

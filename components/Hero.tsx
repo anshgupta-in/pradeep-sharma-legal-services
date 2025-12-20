@@ -4,14 +4,14 @@ import Reveal from './Reveal';
 
 const Hero: React.FC = () => {
   return (
-    <div id="home" className="relative bg-legal-50 min-h-screen flex items-center overflow-hidden">
+    <div id="home" className="relative bg-legal-50 min-h-screen flex items-center overflow-hidden pb-20 lg:pb-24">
       
       {/* Absolute Right Image Section */}
       <div className="absolute top-0 right-0 w-full lg:w-1/2 h-full z-0 overflow-hidden">
          <img
             className="w-full h-full object-cover object-top animate-slow-zoom"
             src={LAWYER_DETAILS.imageUrl}
-            alt="Advocate Pradeep Sharma"
+            alt="PS Document Center office in Krishna Nagar East Delhi - Affidavit and certificate documentation services"
             loading="eager"
             fetchPriority="high"
             decoding="sync"
@@ -41,17 +41,24 @@ const Hero: React.FC = () => {
           </div>
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 h-full flex items-center pt-20 lg:pt-0">
+      <div className="relative z-10 max-w-7xl mx-auto w-full px-4 sm:px-6 lg:px-8 h-full flex items-center pt-20 lg:pt-24 lg:pb-36">
         
         {/* Left Content Container */}
-        <div className="w-full lg:w-1/2 py-12 lg:py-0 pb-28 lg:pb-0">
+        <div className="w-full lg:w-1/2 py-12 lg:py-8 pb-28 lg:pb-0">
             <Reveal>
               <p className="text-legal-gold font-bold tracking-widest uppercase text-sm mb-4">Our Services</p>
             </Reveal>
             <Reveal delay={200}>
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-serif text-legal-900 leading-[1.1]">
-                We are specialists <br/>
-                <span className="font-normal italic">in the legal field</span>
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-serif text-legal-900 leading-tight font-bold mb-6">
+                <span className="block">Affidavit & Certificate</span>
+                <span className="block mt-2">
+                  <span className="text-legal-gold">Services</span>
+                  <span className="text-legal-900"> in </span>
+                  <span className="text-legal-gold">Krishna Nagar</span>
+                </span>
+                <span className="block text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mt-3 text-slate-700 font-normal">
+                  East Delhi
+                </span>
               </h1>
             </Reveal>
             <Reveal delay={400}>
@@ -64,7 +71,7 @@ const Hero: React.FC = () => {
             </Reveal>
             
             <Reveal delay={600}>
-              <div className="mt-10 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
+              <div className="mt-10 mb-8 lg:mb-0 flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4">
                 <a
                   href="#book"
                   className="inline-flex items-center justify-center px-6 sm:px-8 py-3 sm:py-4 text-sm sm:text-base font-medium text-white bg-[#0f2820] hover:bg-legal-900 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-xl w-full sm:w-auto"
