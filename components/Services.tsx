@@ -55,13 +55,33 @@ const Services: React.FC = () => {
                 <p className="text-slate-600 max-w-2xl mx-auto font-light text-lg">
                   We provide expert assistance for a wide range of registration and certification needs.
                 </p>
+                <div className="mt-8 inline-flex items-center gap-3 px-6 py-3 bg-gradient-to-r from-legal-gold/20 to-legal-gold/10 border-2 border-legal-gold rounded-lg shadow-lg hover:shadow-xl transition-all duration-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-legal-gold flex-shrink-0">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h.375M21 12c0 4.556-4.03 8.25-9 8.25a9.764 9.764 0 0 1-2.555-.337A5.972 5.972 0 0 1 5.41 20.97a5.969 5.969 0 0 1-.474-.065 4.48 4.48 0 0 0 .978-2.025c.09-.457-.133-.901-.467-1.226C3.93 16.178 3 14.189 3 12c0-4.556 4.03-8.25 9-8.25s9 3.694 9 8.25Z" />
+                  </svg>
+                  <p className="text-base sm:text-lg text-legal-900 font-bold">
+                    <span className="text-legal-gold">Click on any document or service</span> to open WhatsApp and inquire for fast service
+                  </p>
+                </div>
              </div>
            </Reveal>
            
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
-              {DETAILED_SERVICES.map((item, index) => (
+              {DETAILED_SERVICES.map((item, index) => {
+                  const handleWhatsAppClick = () => {
+                    const whatsappMessage = `Hello, I need help with ${item}`;
+                    const encodedMessage = encodeURIComponent(whatsappMessage);
+                    const whatsappNumber = "919999820270";
+                    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+                    window.open(whatsappUrl, '_blank');
+                  };
+
+                  return (
                   <Reveal key={index} delay={index * 50} className="h-full">
-                      <div className="group flex items-center p-4 bg-white border border-legal-100 rounded-lg hover:border-legal-gold hover:shadow-lg transition-all duration-300 cursor-default relative overflow-hidden h-full">
+                      <div 
+                        onClick={handleWhatsAppClick}
+                        className="group flex items-center p-4 bg-white border border-legal-100 rounded-lg hover:border-legal-gold hover:shadow-lg transition-all duration-300 cursor-pointer relative overflow-hidden h-full"
+                      >
                           {/* Hover fill effect */}
                           <div className="absolute inset-0 bg-legal-50 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500 ease-out z-0"></div>
                           
@@ -85,7 +105,8 @@ const Services: React.FC = () => {
                            </div>
                       </div>
                   </Reveal>
-              ))}
+                  );
+              })}
            </div>
 
            {/* Typing effect line */}
