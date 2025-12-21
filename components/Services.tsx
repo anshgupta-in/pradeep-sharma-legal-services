@@ -51,7 +51,7 @@ const Services: React.FC = () => {
            <Reveal delay={200}>
              <div className="text-center mb-16">
                 <span className="text-legal-gold font-bold tracking-widest uppercase text-xs mb-3 block">Registration & Certificates</span>
-                <h3 className="text-3xl font-serif text-legal-900 mb-4">Specialized Document Center Services</h3>
+                <h3 className="text-3xl font-serif text-legal-900 mb-4">Specialized Document Services</h3>
                 <p className="text-slate-600 max-w-2xl mx-auto font-light text-lg">
                   We provide expert assistance for a wide range of registration and certification needs.
                 </p>
