@@ -7,7 +7,7 @@ const SEOContent: React.FC = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <Reveal>
           <h2 className="text-3xl sm:text-4xl font-serif font-bold text-legal-900 mb-8 text-center">
-            Trusted Document Center & Affidavit Services in Krishna Nagar, East Delhi
+            Trusted Document Center & Affidavit Services in South Anarkali, Krishna Nagar, East Delhi
           </h2>
         </Reveal>
         
@@ -18,11 +18,11 @@ const SEOContent: React.FC = () => {
             </p>
 
             <p className="text-base sm:text-lg">
-              We specialize in <strong>affidavit services in Krishna Nagar</strong> for a wide range of personal, legal, and official purposes. Affidavits are commonly required for name change, address proof, date of birth correction, income declaration, and court-related matters. If you are looking for an <strong>affidavit maker in East Delhi</strong>, our experienced team assists with accurate drafting and proper formatting so that your affidavits are accepted by government offices, courts, and other authorities without delay.
+              We specialize in <strong>affidavit services in South Anarkali, Krishna Nagar</strong> for a wide range of personal, legal, and official purposes. Affidavits are commonly required for name change, address proof, date of birth correction, income declaration, and court-related matters. If you are looking for an <strong>affidavit maker in East Delhi</strong>, our experienced team assists with accurate drafting and proper formatting so that your affidavits are accepted by government offices, courts, and other authorities without delay.
             </p>
 
             <p className="text-base sm:text-lg">
-              Our document center is also well known for providing complete assistance for domicile certificates. A domicile certificate is required for education admissions, government jobs, property matters, and various official applications. Residents searching for <strong>domicile certificate services in Krishna Nagar</strong> rely on us for step-by-step guidance, document verification, and smooth processing. We simplify the procedure and help you avoid common mistakes that can cause rejection or delays.
+              Our document center is also well known for providing complete assistance for domicile certificates. A domicile certificate is required for education admissions, government jobs, property matters, and various official applications. Residents searching for <strong>domicile certificate services in South Anarkali, Krishna Nagar</strong> rely on us for step-by-step guidance, document verification, and smooth processing. We simplify the procedure and help you avoid common mistakes that can cause rejection or delays.
             </p>
 
             <p className="text-base sm:text-lg">
@@ -34,11 +34,11 @@ const SEOContent: React.FC = () => {
             </p>
 
             <p className="text-base sm:text-lg">
-              What makes PS Document Center a preferred choice in <strong>East Delhi</strong> is our commitment to quick service, transparent processes, and fair pricing. Many people visit us because they need urgent documentation work completed without repeated visits or confusion. Our experience with local procedures in <strong>Krishna Nagar</strong> and surrounding areas allows us to handle documentation efficiently and professionally.
+              What makes PS Document Center a preferred choice in <strong>East Delhi</strong> is our commitment to quick service, transparent processes, and fair pricing. Many people visit us because they need urgent documentation work completed without repeated visits or confusion. Our experience with local procedures in <strong>South Anarkali, Krishna Nagar</strong> and surrounding areas allows us to handle documentation efficiently and professionally.
             </p>
 
             <p className="text-base sm:text-lg">
-              If you are searching for a reliable <strong>document center near Krishna Nagar</strong>, <strong>affidavit services in East Delhi</strong>, or assistance with certificates and legal documentation, PS Document Center is here to help. <a href="#contact" className="text-legal-gold hover:text-legal-accent underline font-semibold transition-colors">Visit our office in Krishna Nagar</a> or <a href="#book" className="text-legal-gold hover:text-legal-accent underline font-semibold transition-colors">book an appointment</a> to experience professional document services designed to make your work simple and stress-free.
+              If you are searching for a reliable <strong>document center near South Anarkali, Krishna Nagar</strong>, <strong>affidavit services in East Delhi</strong>, or assistance with certificates and legal documentation, PS Document Center is here to help. <a href="#contact" className="text-legal-gold hover:text-legal-accent underline font-semibold transition-colors">Visit our office in South Anarkali, Krishna Nagar</a> or <a href="#book" className="text-legal-gold hover:text-legal-accent underline font-semibold transition-colors">book an appointment</a> to experience professional document services designed to make your work simple and stress-free.
             </p>
           </div>
         </Reveal>
