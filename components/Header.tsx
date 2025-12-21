@@ -21,7 +21,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <nav className={`fixed w-full z-40 transition-all duration-300 ${scrolled ? 'bg-legal-50/95 backdrop-blur-sm shadow-md py-2' : 'bg-transparent py-6'}`}>
+    <nav className={`fixed w-full z-40 transition-all duration-300 ${scrolled ? 'bg-legal-50/95 backdrop-blur-sm shadow-md py-2' : 'bg-legal-50/80 backdrop-blur-sm md:bg-transparent md:backdrop-blur-0 py-6 md:py-6'}`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center">
           
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               type="button"
-              className="text-legal-900 hover:text-legal-gold focus:outline-none"
+              className="text-legal-900 hover:text-legal-gold focus:outline-none bg-white/50 backdrop-blur-sm rounded-lg p-2 shadow-sm border border-legal-100"
             >
               <span className="sr-only">Open main menu</span>
               {!isMenuOpen ? (
