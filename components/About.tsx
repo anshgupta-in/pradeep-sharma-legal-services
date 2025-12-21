@@ -19,8 +19,21 @@ const About: React.FC = () => {
                         />
                   </div>
                </div>
-               <div className="absolute -bottom-6 -right-6 bg-legal-900 text-white p-8 shadow-xl max-w-xs transform transition-transform hover:-translate-y-2 duration-300">
+               <div className="absolute -bottom-6 -right-6 bg-legal-900 text-white p-8 shadow-xl max-w-xs transform transition-transform hover:-translate-y-2 duration-300 group">
                    <p className="font-serif text-3xl mb-2">{LAWYER_DETAILS.name}</p>
+                   <div className="mb-3 relative overflow-hidden">
+                     <span className="inline-flex items-center gap-2 bg-gradient-to-r from-legal-gold/25 via-legal-gold/30 to-legal-gold/25 text-legal-gold px-4 py-1.5 rounded-md text-xs font-bold uppercase tracking-[0.15em] border border-legal-gold/50 shadow-lg group-hover:shadow-legal-gold/50 transition-all duration-500 group-hover:scale-105 group-hover:border-legal-gold">
+                       <span className="relative">
+                         <span className="absolute inset-0 bg-legal-gold/20 blur-sm group-hover:bg-legal-gold/40 transition-all duration-500"></span>
+                         <span className="relative">BA. LLB</span>
+                       </span>
+                       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-3 h-3 group-hover:rotate-12 transition-transform duration-300">
+                         <path d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.949 49.949 0 0 0-9.902 3.912.75.75 0 0 1-.84 0 49.908 49.908 0 0 0-9.903-3.912.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                         <path d="M13.06 15.473a48.45 48.45 0 0 1 1.93-.471 75.001 75.001 0 0 0-9.98 0 48.5 48.5 0 0 1 1.93.47c-.197.197-.39.4-.577.628a20.556 20.556 0 0 1-1.299 2.539l-.23.308a18.842 18.842 0 0 0 10.12 0l-.23-.307a20.555 20.555 0 0 1-1.3-2.54c-.186-.227-.38-.43-.577-.627Z" />
+                         <path d="M10.854 6.147a.75.75 0 0 0-1.214-.882l-3.236 4.53a.75.75 0 0 0 1.214.882l3.236-4.53ZM14.698 9.821a.75.75 0 0 0-1.214-.882l-2.012 2.815a.75.75 0 0 0 1.214.882l2.012-2.815Z" />
+                       </svg>
+                     </span>
+                   </div>
                    <p className="text-legal-gold text-sm uppercase tracking-wider">{LAWYER_DETAILS.title}</p>
                </div>
              </Reveal>
