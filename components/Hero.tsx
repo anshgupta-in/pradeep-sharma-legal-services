@@ -58,7 +58,7 @@ const Hero: React.FC = () => {
                 <span className="block mt-2">
                   <span className="text-legal-gold">Services</span>
                   <span className="text-legal-900"> in </span>
-                  <span className="text-legal-gold">Krishna Nagar</span>
+                  <span className="text-legal-gold">South Anarkali, Krishna Nagar</span>
                 </span>
                 <span className="block text-3xl sm:text-4xl lg:text-5xl xl:text-6xl mt-3 text-slate-700 font-normal">
                   East Delhi
