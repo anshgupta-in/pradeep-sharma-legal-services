@@ -159,7 +159,7 @@ export const LAWYER_DETAILS = {
   phone: "+91 99998 20270",
   email: "Pradeepsharmaadv.1@gmail.com",
   alternatePhone: "+91 95409 25867",
-  officeHours: "Mon - Fri: 10:00 AM - 8:00 PM",
+  officeHours: "Mon - Sat: 10:00 AM - 8:00 PM",
   imageUrl: "/images/hero.webp",
   googleBusinessProfileUrl: "https://g.page/r/CRdRcOy27qqnEAE/review"
 };
